@@ -1,0 +1,645 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+
+/* obsee*/
+
+.navbar-toggler {
+    background-color: #e0c95f;
+}
+
+.nav-link {
+    margin-right: 3rem;
+    color: rgb( 166, 166, 166);
+}
+
+
+/* #nav-link {
+    margin-right: 3rem;
+    color: rgb( 166, 166, 166);
+} */
+
+#nav-link:hover {
+    color: #e0c95f;
+}
+
+.portfoliocomp {
+    display: none;
+}
+
+.flowers {
+    text-align: center;
+    /* width: 80%; */
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.flowers p {
+    display: inline-block;
+}
+
+.flowers p:before {
+    display: inline-block;
+    content: '';
+    width: 4rem;
+    border-bottom: 1px solid #e0c95f;
+    top: 50%;
+    vertical-align: middle;
+}
+
+.flowers p:after {
+    display: inline-block;
+    width: 4rem;
+    content: '';
+    border-bottom: 1px solid #e0c95f;
+    top: 50%;
+    vertical-align: middle;
+}
+
+
+/* navigacia*/
+
+nav {
+    background-color: #363645;
+}
+
+.conect1 {
+    font-size: 2em;
+    padding: 0.2em;
+    text-decoration: none;
+}
+
+.conect1:hover {
+    color: rgb(201, 89, 201);
+}
+
+.conect2 {
+    font-size: 2em;
+    padding: 0.2em;
+    text-decoration: none;
+}
+
+.conect2:hover {
+    color: rgb(71, 71, 226);
+}
+
+.conect3 {
+    font-size: 2em;
+    padding: 0.2em;
+    text-decoration: none;
+}
+
+.conect3:hover {
+    color: rgb(2, 90, 2);
+}
+
+
+/*     header    */
+
+header {
+    background-image: url(../images/headermob.jpg);
+    background-size: cover;
+}
+
+header h3 {
+    font-size: 30px;
+    font-family: "Raleway";
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 1px 1.732px 0px rgb( 26, 26, 26);
+    color: #fff;
+    margin-top: 365px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.6;
+    text-align: center;
+    text-shadow: 1px 1.732px 0px rgb( 26, 26, 26);
+}
+
+header h1 span {
+    color: #e0c95f;
+}
+
+.portfoliomob h3,
+.services h3,
+.revews h3,
+.headline,
+.my h3,
+footer h3,
+.portfoliocomp h3 {
+    font-size: 26px;
+    font-family: "Raleway";
+    color: #48464c;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu__items a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/*header*/
+
+header h3 {
+    margin-top: 80px;
+}
+
+header h1 {
+    font-size: 50px;
+    line-height: 1;
+}
+
+header a {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+
+/*services*/
+
+.services p {
+    font-size: 18px;
+    font-family: "OpenSans";
+    color: rgb( 166, 166, 166);
+    line-height: 1.667;
+    text-align: center;
+}
+
+.services h4 {
+    font-size: 23px;
+    font-family: "OpenSans";
+    color: rgb( 147, 124, 108);
+    text-transform: uppercase;
+    line-height: 3.391;
+    text-align: center;
+}
+
+.services h4:after {
+    display: block;
+    content: " ";
+    background: #e0c95f;
+    width: 50%;
+    height: 2px;
+}
+
+
+/*portfolio*/
+
+.portfoliocomp,
+.portfoliomob {
+    background-color: #efefef;
+}
+
+.portfoliocomp h4,
+.portfoliocomp h4 {
+    font-size: 23px;
+    font-family: "Raleway";
+    color: rgb( 147, 147, 147);
+    line-height: 2;
+    text-align: center;
+}
+
+.portfoliomob h4:after {
+    display: block;
+    content: " ";
+    background: #e0c95f;
+    width: 50%;
+    height: 2px;
+}
+
+.portfoliocomp h4:after {
+    display: block;
+    content: " ";
+    background: #e0c95f;
+    width: 50%;
+    height: 2px;
+}
+
+.portfoliocomp .PortSoc,
+.portfoliomob .PortSoc {
+    text-align: center;
+}
+
+.portfoliocomp .PortSoc a,
+.portfoliomob .PortSoc a {
+    color: #e0c95f;
+}
+
+.portfoliocomp .PortSoc .conect1:hover {
+    color: violet;
+}
+
+.portfoliocomp .PortSoc .conect2:hover {
+    color: rgb(5, 2, 194);
+}
+
+.zapichis {
+    display: block;
+    background-color: #e0c95f;
+    padding: 1em 1em;
+    text-decoration: none;
+    color: #72683a;
+    box-shadow: 0px 4px #ad923e;
+    margin-bottom: 4em;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.zapichis:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ad923e;
+    box-shadow: 0px 4px #e0c95f;
+}
+
+.slogan {
+    background-color: #3b3a48;
+}
+
+.slogan h2 {
+    margin-top: 2em;
+    font-size: 3rem;
+    font-family: "PlayfairDisplay";
+    color: rgb( 255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    text-shadow: 1px 1.732px 0px rgb( 26, 26, 26);
+}
+
+.slogan h2 span {
+    color: #e0c95f;
+}
+
+.my {
+    background-color: #efefef;
+}
+
+.my p {
+    font-size: 18px;
+    font-family: "OpenSans";
+    color: rgb( 166, 166, 166);
+    line-height: 1.667;
+    text-align: center;
+}
+
+.my ul {
+    font-size: 18px;
+    font-family: "OpenSans";
+    color: rgb( 166, 166, 166);
+    line-height: 1.667;
+}
+
+.my .carousel {
+    margin-bottom: 2rem;
+}
+
+.revius {
+    background-color: #3f4557;
+}
+
+.revius h3 {
+    font-size: 30px;
+    font-family: "Raleway";
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 1px 1.732px 0px rgb( 26, 26, 26);
+    margin-top: 2rem;
+}
+
+.revius .carousel {
+    margin-bottom: 2rem;
+}
+
+footer a img {
+    display: inline-block;
+}
+
+footer h4 {
+    font-size: 23px;
+    font-family: "Raleway";
+    color: rgb( 147, 147, 147);
+    line-height: 2;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+footer h4:after {
+    display: block;
+    content: " ";
+    background: #e0c95f;
+    width: 50%;
+    height: 2px;
+}
+
+footer p,
+footer a {
+    font-size: 18px;
+    font-family: "OpenSans";
+    color: rgb( 166, 166, 166);
+    line-height: 1.667;
+    text-align: center;
+}
+
+footer a:hover {
+    color: #e0c95f;
+    text-decoration: none;
+}
+
+.footerFon {
+    height: 3rem;
+    background-color: #90929a;
+}
+
+.footerInfo {
+    background-color: #616876;
+}
+
+.footerInfo img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.socseti {
+    position: fixed;
+    top: 40%;
+    left: 1%;
+    background-color: #3f45572c;
+}
+
+.top {
+    position: fixed;
+    top: 90%;
+    left: 1%;
+    background-color: #3f45572c;
+    padding: 10px;
+}
+
+.socseti a {
+    color: #e0c95f;
+}
+
+.socseti .conect1:hover {
+    color: violet;
+}
+
+.socseti .conect2:hover {
+    color: blue;
+}
+
+.socseti .conect3:hover {
+    color: green;
+}
+
+.adresscomp {
+    display: none;
+}
+
+@media (min-width: 460px) {
+    header {
+        background-image: url(../images/headertab.jpg);
+    }
+}
+
+@media (min-width:640px) {
+    header {
+        background-image: url(../images/headerbigtab.jpg);
+        height: 40em;
+    }
+    header h3 {
+        margin-top: 30%;
+    }
+    .makeup {
+        margin-left: 10%;
+    }
+}
+
+@media (min-width:992px) {
+    header {
+        background-image: url(../images/headerbigtab.jpg);
+        background-size: cover;
+        height: 50em;
+    }
+    header h3 {
+        margin-top: 30%;
+    }
+    .zapichis {
+        display: block;
+        background-color: #e0c95f;
+        padding: 1em 1em;
+        text-decoration: none;
+        color: #72683a;
+        box-shadow: 0px 4px #ad923e;
+        margin-bottom: 4em;
+        margin-top: 3em;
+        text-align: center;
+    }
+    .portfoliomob {
+        display: none;
+    }
+    .portfoliocomp {
+        display: block;
+    }
+    .port_menu {
+        display: flex;
+        justify-content: center;
+    }
+    .port_menu__items {
+        margin-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        list-style-type: none;
+    }
+    .port_menu__items a {
+        font-size: 24px;
+        font-family: "Raleway";
+        color: rgb( 166, 166, 166);
+        line-height: 3.25;
+        text-align: center;
+        text-decoration: none;
+    }
+    .port_menu__items a:hover {
+        color: #e0c95f;
+    }
+    .flexportfolio {
+        display: flex;
+        flex-wrap: wrap;
+        /* max-width: 700px;  */
+        margin: 0 auto;
+        /* выровняем по центру */
+    }
+    .itemhair1 {
+        flex: -1 0 27rem;
+        /* отнимем margin и скажем растягиваться */
+        margin: 5px;
+        box-sizing: border-box;
+        /* чтобы внутренний отступ не влиял когда там будет текст... */
+        min-width: 170px;
+        /* мин. ширина блока, чтобы переносились на другой ряд */
+        /* padding: 50px 20px; */
+        font-size: 400%;
+        text-align: center;
+        /* для красоты */
+    }
+    .itemhair2 {
+        flex: -1 0 22rem;
+        /* отнимем margin и скажем растягиваться */
+        margin: 5px;
+        box-sizing: border-box;
+        /* чтобы внутренний отступ не влиял когда там будет текст... */
+        min-width: 170px;
+        /* мин. ширина блока, чтобы переносились на другой ряд */
+        /* padding: 50px 20px; */
+        font-size: 400%;
+        text-align: center;
+        /* для красоты */
+    }
+    .portfoliocolumn {
+        width: 33%;
+    }
+    .wind-expand {
+        display: flex;
+        flex-direction: row;
+        flex: wrap;
+        width: 100%;
+    }
+    .wind {
+        display: none;
+        flex-direction: row;
+        flex: wrap;
+        width: 100%;
+    }
+    .makeup {
+        margin-left: 10%;
+    }
+    .my {
+        padding: 1rem;
+    }
+    .myfoto p {
+        text-align: left;
+    }
+    .myfoto {
+        width: 100%;
+    }
+    .mytext p {
+        text-align: justify;
+    }
+    .sertslide {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .revewsslider {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .adressmob {
+        display: none;
+    }
+    .adresscomp {
+        display: block;
+    }
+    .give-us a {
+        text-align: left;
+        font-size: 1.5rem;
+        line-height: 0.7;
+    }
+    .services,
+    .portfoliocomp,
+    .contacts {
+        padding: 1em;
+    }
+    .slider img {
+        margin: 0 auto;
+    }
+    .slider .image2 img {
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .flowers p:before {
+        display: inline-block;
+        content: '';
+        width: 1rem;
+        border-bottom: 1px solid #e0c95f;
+        top: 50%;
+        vertical-align: middle;
+    }
+    .flowers p:after {
+        display: inline-block;
+        width: 1rem;
+        content: '';
+        border-bottom: 1px solid #e0c95f;
+        top: 50%;
+        vertical-align: middle;
+    }
+}
+
+@media (min-width: 1196px) {
+    .itemhair1 {
+        flex: 0 0 27rem;
+        /* отнимем margin и скажем растягиваться */
+        margin: 5px;
+        box-sizing: border-box;
+        /* чтобы внутренний отступ не влиял когда там будет текст... */
+        min-width: 170px;
+        /* мин. ширина блока, чтобы переносились на другой ряд */
+        /* padding: 50px 20px; */
+        font-size: 400%;
+        text-align: center;
+        /* для красоты */
+    }
+    .itemhair2 {
+        flex: 0 0 22rem;
+        /* отнимем margin и скажем растягиваться */
+        margin: 5px;
+        box-sizing: border-box;
+        /* чтобы внутренний отступ не влиял когда там будет текст... */
+        min-width: 170px;
+        /* мин. ширина блока, чтобы переносились на другой ряд */
+        /* padding: 50px 20px; */
+        font-size: 400%;
+        text-align: center;
+        /* для красоты */
+    }
+}
